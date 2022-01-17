@@ -1,7 +1,7 @@
 <template>
   <form class="search_bar" @submit.prevent="onSearch">
     <img src="@/assets/searcIcon.png" alt="" />
-    <input type="search" placeholder="Search for photo" v-model="value" />
+    <input type="text" placeholder="Search for photo" v-model="value" />
   </form>
 </template>
 
@@ -39,6 +39,7 @@ export default {
   padding-left: 50px;
   padding-right: 20px;
   font-weight: bold;
+  color: #b8bec9;
 }
 .search_bar input:focus {
   border: none;
