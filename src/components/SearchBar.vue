@@ -40,6 +40,7 @@ export default {
   padding-right: 20px;
   font-weight: bold;
   color: #b8bec9;
+  font-size: 16px;
 }
 .search_bar input:focus {
   border: none;
