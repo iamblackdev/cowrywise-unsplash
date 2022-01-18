@@ -49,6 +49,7 @@ export default {
     };
   },
   async created() {
+    // getting images related to the word "African"
     let { data, error } = await getPhotos({ value: "African" });
 
     this.loading = false;

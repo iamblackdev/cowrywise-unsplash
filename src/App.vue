@@ -20,7 +20,6 @@ body {
   font-size: 16px;
   line-height: 22px;
   background-color: #fff;
-  /* padding-bottom: 100px; */
 }
 
 h1,

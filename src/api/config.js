@@ -2,6 +2,7 @@ import axios from "axios";
 import { baseURL, client_id } from "../constants";
 import catchError from "../utils/catchError";
 
+// app api client configuration (axios)
 const apiConfig = async ({ url, method, data, params }) => {
   try {
     const response = await axios.request({

@@ -53,6 +53,7 @@ export default {
     };
   },
   async created() {
+    // getting images related to the the search value
     this.searching = true;
     let { data, error } = await getPhotos({ value: this.value });
     this.searching = false;

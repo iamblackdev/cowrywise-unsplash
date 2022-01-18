@@ -14,7 +14,7 @@ export default {
   },
   methods: {
     onSearch() {
-      console.log(this.value);
+      // route to the search page and add the value as a param.
       this.$router.push({ name: "Search", params: { value: this.value } });
     },
   },
